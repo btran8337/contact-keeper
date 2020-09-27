@@ -39,7 +39,7 @@ const ContactState = (props) => {
     ]
   };
 
-  const [state, dispatch] = useReducer(contactReducer, initialState);
+  const [state, dispatch] = useReducer(ContactReducer, initialState);
 
   // Add Contact
 
